@@ -1,0 +1,674 @@
+Dependencies for Project '5220-apm32', Target '5220-amp32': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\CMSIS\arm\startup_apm32f103xb.s)(0x69C0B6EA)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include--pd "__UVISION_VERSION SETA 537" --pd "APM32F103xB SETA 1"--list .\listings\startup_apm32f103xb.lst --xref -o ..\output\startup_apm32f103xb.o --depend ..\output\startup_apm32f103xb.d)
+F (..\FWLib\src\apm32f10x_adc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_adc.o --omf_browse ..\output\apm32f10x_adc.crf --depend ..\output\apm32f10x_adc.d)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_bakpr.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_bakpr.o --omf_browse ..\output\apm32f10x_bakpr.crf --depend ..\output\apm32f10x_bakpr.d)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_can.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_can.o --omf_browse ..\output\apm32f10x_can.crf --depend ..\output\apm32f10x_can.d)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_crc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_crc.o --omf_browse ..\output\apm32f10x_crc.crf --depend ..\output\apm32f10x_crc.d)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_dac.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_dac.o --omf_browse ..\output\apm32f10x_dac.crf --depend ..\output\apm32f10x_dac.d)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_dbgmcu.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_dbgmcu.o --omf_browse ..\output\apm32f10x_dbgmcu.crf --depend ..\output\apm32f10x_dbgmcu.d)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_dma.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_dma.o --omf_browse ..\output\apm32f10x_dma.crf --depend ..\output\apm32f10x_dma.d)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_dmc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_dmc.o --omf_browse ..\output\apm32f10x_dmc.crf --depend ..\output\apm32f10x_dmc.d)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_eint.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_eint.o --omf_browse ..\output\apm32f10x_eint.crf --depend ..\output\apm32f10x_eint.d)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_eth.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_eth.o --omf_browse ..\output\apm32f10x_eth.crf --depend ..\output\apm32f10x_eth.d)
+I (..\FWLib\inc\apm32f10x_eth.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_fmc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_fmc.o --omf_browse ..\output\apm32f10x_fmc.crf --depend ..\output\apm32f10x_fmc.d)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_gpio.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_gpio.o --omf_browse ..\output\apm32f10x_gpio.crf --depend ..\output\apm32f10x_gpio.d)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_i2c.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_i2c.o --omf_browse ..\output\apm32f10x_i2c.crf --depend ..\output\apm32f10x_i2c.d)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_iwdt.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_iwdt.o --omf_browse ..\output\apm32f10x_iwdt.crf --depend ..\output\apm32f10x_iwdt.d)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_misc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_misc.o --omf_browse ..\output\apm32f10x_misc.crf --depend ..\output\apm32f10x_misc.d)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_pmu.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_pmu.o --omf_browse ..\output\apm32f10x_pmu.crf --depend ..\output\apm32f10x_pmu.d)
+I (..\FWLib\inc\apm32f10x_pmu.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_qspi.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_qspi.o --omf_browse ..\output\apm32f10x_qspi.crf --depend ..\output\apm32f10x_qspi.d)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_rcm.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_rcm.o --omf_browse ..\output\apm32f10x_rcm.crf --depend ..\output\apm32f10x_rcm.d)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_rtc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_rtc.o --omf_browse ..\output\apm32f10x_rtc.crf --depend ..\output\apm32f10x_rtc.d)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_sci2c.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_sci2c.o --omf_browse ..\output\apm32f10x_sci2c.crf --depend ..\output\apm32f10x_sci2c.d)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_sdio.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_sdio.o --omf_browse ..\output\apm32f10x_sdio.crf --depend ..\output\apm32f10x_sdio.d)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_smc.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_smc.o --omf_browse ..\output\apm32f10x_smc.crf --depend ..\output\apm32f10x_smc.d)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_spi.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_spi.o --omf_browse ..\output\apm32f10x_spi.crf --depend ..\output\apm32f10x_spi.d)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_tmr.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_tmr.o --omf_browse ..\output\apm32f10x_tmr.crf --depend ..\output\apm32f10x_tmr.d)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_usart.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_usart.o --omf_browse ..\output\apm32f10x_usart.crf --depend ..\output\apm32f10x_usart.d)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_usb.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_usb.o --omf_browse ..\output\apm32f10x_usb.crf --depend ..\output\apm32f10x_usb.d)
+I (..\FWLib\inc\apm32f10x_usb.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\FWLib\src\apm32f10x_usb_device.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_usb_device.o --omf_browse ..\output\apm32f10x_usb_device.crf --depend ..\output\apm32f10x_usb_device.d)
+I (..\FWLib\inc\apm32f10x_usb_device.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_usb.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_usb_host.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_usb_host.o --omf_browse ..\output\apm32f10x_usb_host.crf --depend ..\output\apm32f10x_usb_host.d)
+I (..\FWLib\inc\apm32f10x_usb_host.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_usb.h)(0x69C0B6EA)
+F (..\FWLib\src\apm32f10x_wwdt.c)(0x69C0B6EA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_wwdt.o --omf_browse ..\output\apm32f10x_wwdt.crf --depend ..\output\apm32f10x_wwdt.d)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+F (..\User\Main\apm32f10x_int.c)(0x6A98F188)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\apm32f10x_int.o --omf_browse ..\output\apm32f10x_int.crf --depend ..\output\apm32f10x_int.d)
+I (..\User\Main\main.h)(0x6A8E8FC6)
+I (..\User\Main\apm32f10x_int.h)(0x69C0B6E8)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\User\System\Rcm.h)(0x6A98F107)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+F (..\User\Main\main.c)(0x6AAB44F6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\System\Rcm.h)(0x6A98F107)
+I (..\User\Handware\uart.h)(0x6AA75DE0)
+I (F:\keil5\Core\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (F:\keil5\Core\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\User\Handware\485.h)(0x6AAB44D0)
+I (..\User\Handware\gt24c64a.h)(0x6A991B4F)
+I (..\User\Handware\i2c.h)(0x6A9A764A)
+I (..\User\Handware\ktm52.h)(0x6A9A8ADF)
+F (..\User\Main\system_apm32f10x.c)(0x69C0B6E8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\system_apm32f10x.o --omf_browse ..\output\system_apm32f10x.crf --depend ..\output\system_apm32f10x.d)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+F (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)()
+F (..\User\System\Rcm.c)(0x6A98F124)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\rcm.o --omf_browse ..\output\rcm.crf --depend ..\output\rcm.d)
+I (..\User\System\Rcm.h)(0x6A98F107)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\Main\system_apm32f10x.h)(0x69C0B6EA)
+F (..\User\System\Rcm.h)(0x6A98F107)()
+F (..\User\Handware\uart.c)(0x6AAB44F1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\User\Handware\uart.h)(0x6AA75DE0)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (F:\keil5\Core\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (F:\keil5\Core\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\User\Handware\485.h)(0x6AAB44D0)
+F (..\User\Handware\uart.h)(0x6AA75DE0)()
+F (..\User\Handware\485.c)(0x6AAB44E2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\485.o --omf_browse ..\output\485.crf --depend ..\output\485.d)
+I (..\User\Handware\485.h)(0x6AAB44D0)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\Handware\uart.h)(0x6AA75DE0)
+I (F:\keil5\Core\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (F:\keil5\Core\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\User\Handware\ktm52.h)(0x6A9A8ADF)
+I (..\User\System\Rcm.h)(0x6A98F107)
+I (..\User\Handware\gt24c64a.h)(0x6A991B4F)
+I (..\User\Handware\i2c.h)(0x6A9A764A)
+I (..\User\Handware\spi.h)(0x6AA0E1D9)
+F (..\User\Handware\485.h)(0x6AAB44D0)()
+F (..\User\Handware\spi.c)(0x6AA0E1D7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\spi.o --omf_browse ..\output\spi.crf --depend ..\output\spi.d)
+I (..\User\Handware\spi.h)(0x6AA0E1D9)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+F (..\User\Handware\spi.h)(0x6AA0E1D9)()
+F (..\User\Handware\ktm52.c)(0x6AAA601E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\ktm52.o --omf_browse ..\output\ktm52.crf --depend ..\output\ktm52.d)
+I (..\User\Handware\ktm52.h)(0x6A9A8ADF)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\System\Rcm.h)(0x6A98F107)
+I (..\User\Handware\spi.h)(0x6AA0E1D9)
+F (..\User\Handware\ktm52.h)(0x6A9A8ADF)()
+F (..\User\Handware\I2C.c)(0x6A9A8DD6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\i2c.o --omf_browse ..\output\i2c.crf --depend ..\output\i2c.d)
+I (..\User\Handware\i2c.h)(0x6A9A764A)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+F (..\User\Handware\I2C.h)(0x6A9A764A)()
+F (..\User\Handware\gt24c64a.c)(0x6A9930C7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD-o ..\output\gt24c64a.o --omf_browse ..\output\gt24c64a.crf --depend ..\output\gt24c64a.d)
+I (..\User\Handware\gt24c64a.h)(0x6A991B4F)
+I (..\User\Main\apm32f10c_conf.h)(0x6A8FA6CE)
+I (..\User\Main\apm32f10x.h)(0x69C0B6EA)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\apm32f103xb.h)(0x696851CE)
+I (..\CMSIS\core_cm3.h)(0x69490E45)
+I (F:\keil5\Core\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\cmsis_version.h)(0x69490E45)
+I (..\CMSIS\cmsis_compiler.h)(0x69490E45)
+I (..\CMSIS\cmsis_armcc.h)(0x69490E45)
+I (F:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x6968A20A)
+I (..\FWLib\inc\apm32f10x_adc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_bakpr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_can.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_crc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dac.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dbgmcu.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dma.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_dmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_eint.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_fmc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_gpio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_i2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_iwdt.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_misc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_qspi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rcm.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_rtc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sci2c.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_sdio.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_smc.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_spi.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_tmr.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_usart.h)(0x69C0B6EA)
+I (..\FWLib\inc\apm32f10x_wwdt.h)(0x69C0B6EA)
+I (..\User\Handware\i2c.h)(0x6A9A764A)
+I (F:\keil5\Core\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (F:\keil5\Core\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (F:\keil5\Core\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\User\Handware\uart.h)(0x6AA75DE0)
+I (..\User\Handware\485.h)(0x6AAB44D0)
+F (..\User\Handware\gt24c64a.h)(0x6A991B4F)()

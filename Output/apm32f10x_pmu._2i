@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FWLib\inc -I ..\User\Main -I ..\User\System -I ..\User\Handware --gnu
+-IF:\keil5\Pack\Geehy\APM32F1xx_DFP\1.2.0\Device\Device\Geehy\APM32F10x\Include
+-D__UVISION_VERSION="537" -DAPM32F103xB -DAPM32F10X_HD
+-o ..\output\apm32f10x_pmu.o --omf_browse ..\output\apm32f10x_pmu.crf --depend ..\output\apm32f10x_pmu.d --feedback "..\Output\5220-apm32.fed" "..\FWLib\src\apm32f10x_pmu.c"

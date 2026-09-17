@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Keil: 编译 (Build)",
+            "type": "shell",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& 'F:/keil5/Core/UV4/UV4.exe' -b '${workspaceFolder}/Project/5220-apm32.uvprojx' -j0 -o '${workspaceFolder}/Project/uv4_build.log'; $code=$LASTEXITCODE; if(Test-Path '${workspaceFolder}/Project/uv4_build.log'){ Write-Host '==== UV4 构建日志 ===='; Get-Content '${workspaceFolder}/Project/uv4_build.log' }; Write-Host ('==== UV4 退出码: ' + $code + '  (0/1=成功或有警告, 2=有错误) ===='); exit $code\"",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Keil: 全量重编译 (Rebuild All)",
+            "type": "shell",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& 'F:/keil5/Core/UV4/UV4.exe' -r '${workspaceFolder}/Project/5220-apm32.uvprojx' -j0 -o '${workspaceFolder}/Project/uv4_build.log'; $code=$LASTEXITCODE; if(Test-Path '${workspaceFolder}/Project/uv4_build.log'){ Write-Host '==== UV4 构建日志 ===='; Get-Content '${workspaceFolder}/Project/uv4_build.log' }; Write-Host ('==== UV4 退出码: ' + $code + '  (0/1=成功或有警告, 2=有错误) ===='); exit $code\"",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}
