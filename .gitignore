@@ -1,0 +1,34 @@
+# IDE 配置
+.vs/
+.vscode/
+
+# Keil 编译产物
+Output/
+Project/DebugConfig/
+Project/Listings/
+Project/Objects/
+uv4_build.log
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.iex
+*._2i
+*.dep
+*.map
+*.lst
+*.htm
+*.lnp
+*.sct
+*.fed
+*.l2p
+*.build_log.htm
+
+# Keil 用户配置(工程结构 .uvprojx 保留)
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# 空占位文件
+Conntek_KTM52_SPI

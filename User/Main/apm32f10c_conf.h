@@ -1,0 +1,30 @@
+#ifndef __APM32F10C_CONF_H__
+#define __APM32F10C_C0NF_H__
+#include "apm32f10x.h"
+
+#include "apm32f10x_adc.h"
+#include "apm32f10x_bakpr.h"
+#include "apm32f10x_can.h"
+#include "apm32f10x_crc.h"
+#include "apm32f10x_dac.h"
+#include "apm32f10x_dbgmcu.h"
+#include "apm32f10x_dma.h"
+#include "apm32f10x_dmc.h"
+#include "apm32f10x_eint.h"
+#include "apm32f10x_fmc.h"
+#include "apm32f10x_gpio.h"
+#include "apm32f10x_i2c.h"
+#include "apm32f10x_iwdt.h"
+#include "apm32f10x_misc.h"
+#include "apm32f10x_qspi.h"
+#include "apm32f10x_rcm.h"
+#include "apm32f10x_rtc.h"
+#include "apm32f10x_sci2c.h"
+#include "apm32f10x_sdio.h"
+#include "apm32f10x_smc.h"
+#include "apm32f10x_spi.h"
+#include "apm32f10x_tmr.h"
+#include "apm32f10x_usart.h"
+#include "apm32f10x_wwdt.h"
+
+#endif
