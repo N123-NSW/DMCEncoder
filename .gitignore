@@ -1,34 +1,55 @@
-# IDE 配置
-.vs/
-.vscode/
-
-# Keil 编译产物
-Output/
-Project/DebugConfig/
-Project/Listings/
-Project/Objects/
-uv4_build.log
-*.o
+# Prerequisites
 *.d
-*.crf
-*.axf
-*.hex
-*.iex
-*._2i
-*.dep
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
 *.map
-*.lst
-*.htm
-*.lnp
-*.sct
-*.fed
-*.l2p
-*.build_log.htm
+*.exp
 
-# Keil 用户配置(工程结构 .uvprojx 保留)
-*.uvguix.*
-*.uvoptx
-*.scvd
+# Precompiled Headers
+*.gch
+*.pch
 
-# 空占位文件
-Conntek_KTM52_SPI
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
